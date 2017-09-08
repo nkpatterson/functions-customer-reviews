@@ -1,11 +1,11 @@
 ﻿{
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "__AzureWebJobsStorage__",
-    "MicrosoftVisionApiKey": "__MicrosoftVisionApiKey__",
-    "ContentModerationApiKey": "__ContentModerationApiKey__",
-    "customerReviewDataDocDB": "__customerReviewDataDocDB__",
-    "APPINSIGHTS_INSTRUMENTATIONKEY": "__APPINSIGHTS_INSTRUMENTATIONKEY__",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=nkpserverlessstor;AccountKey=jkqRrK6kRS6JQOGyC8tKT2Vqt65a+f2ebYrxH7SiVWZVDDYujFogzRRib5tbmdHOPvjBPcGU2JE2Hy12uNWzrw==;EndpointSuffix=core.windows.net",
+    "MicrosoftVisionApiKey": "b857410a504547a1ab876b846da5bca8",
+    "ContentModerationApiKey": "cdd79212d2d644ef8b0a544e53fd82c0",
+    "customerReviewDataDocDB": "AccountEndpoint=https://nkpserverlessdocdb.documents.azure.com:443/;AccountKey=3ol1QgNmufINjqRlmlLrzahSI5Fjjfl590hwDnUXAf3GACtFkwMcCPzu3AqUUvR9KbHEMWnF4JWcHXhAYtgWrQ==;",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "841bbd54-cc3d-4065-b80d-398ed76becd0",
     "queue-name": "review-queue"
   },
   "ConnectionStrings": {}

@@ -1,12 +1,12 @@
 <configuration>
 	<!-- CLOUD SETTINGS -->
-	<storageConnectionString>YOURSTORAGECONNECTIONSTRING</storageConnectionString>
+	<storageConnectionString>DefaultEndpointsProtocol=https;AccountName=nkpserverlessstor;AccountKey=jkqRrK6kRS6JQOGyC8tKT2Vqt65a+f2ebYrxH7SiVWZVDDYujFogzRRib5tbmdHOPvjBPcGU2JE2Hy12uNWzrw==;EndpointSuffix=core.windows.net</storageConnectionString>
 	<containerName>input-images</containerName>
 	<queueName>review-queue</queueName>
 	<queueNameLocal>review-queue-local</queueNameLocal>
 
-	<documentDbEndpoint>YOURCOSMOSDBENDPOINT</documentDbEndpoint>
-	<documentDbKey>YOURCOSMOSDBKEY</documentDbKey>
+	<documentDbEndpoint>https://nkpserverlessdocdb.documents.azure.com:443/</documentDbEndpoint>
+	<documentDbKey>3ol1QgNmufINjqRlmlLrzahSI5Fjjfl590hwDnUXAf3GACtFkwMcCPzu3AqUUvR9KbHEMWnF4JWcHXhAYtgWrQ==</documentDbKey>
 	<documentDbName>customerReviewData</documentDbName>
 	<documentDbCollName>reviews</documentDbCollName>
 	<documentDbPartKeyPath>/reviewId</documentDbPartKeyPath>
